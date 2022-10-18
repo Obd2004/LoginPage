@@ -1,0 +1,70 @@
+body{
+    background: linear-gradient(135deg, rgb(16, 103, 147), rgb(107, 126, 143), rgb(69, 96, 120));
+    background-repeat: no-repeat;
+    height: 621px;
+    width: 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(25deg, rgb(40, 57, 55), rgb(13, 129, 98));
+    width: 350px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 0px 40px 20px 10px rgb(40, 57, 55);
+}
+.input1{
+    width: 250px;
+    height: 5vh;
+    margin-bottom: 35px;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    color: #000;
+    padding-left: 15px;
+    font-size: 16px;
+}
+.input2{
+    width: 250px;
+    height: 5vh;
+    margin-bottom: 35px;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    color: #000;
+    padding-left: 15px;
+    font-size: 16px;
+}
+.btn{
+    width: 262px;
+    border-radius: 8px;
+    height: 5vh;
+    border: none;
+    background-color: aqua;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+.sign{
+    color: aqua;
+    margin-bottom: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.natija{
+    color: aqua;
+    padding-top: 55px;
+    text-align: center;
+    /* display: none; */
+}
